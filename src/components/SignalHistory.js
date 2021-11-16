@@ -19,7 +19,8 @@ const SignalHistory = () => {
     ];
       
     return (
-        <div className="main">
+
+          <div className="data-card">
            <div className="mainTitle" > Signal history </div>
            <TableContainer>
       <Table sx={{ minWidth: 650 }} aria-label="simple table">
@@ -44,7 +45,7 @@ const SignalHistory = () => {
         </TableBody>
       </Table>
     </TableContainer>
-        </div>
+    </div>
     )
 }
 

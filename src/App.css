@@ -3,8 +3,20 @@
   pointer-events: none;
 }
 
+.mainHeading{
+font-family: Inter;
+font-size: 50px;
+font-style: normal;
+font-weight: 800;
+letter-spacing: 0em;
+text-align: left;
+width: 51rem;
+margin: 5rem auto 0rem auto;
+
+}
+
 .main{
-  padding: 2.5rem 4rem;
+  padding-top: 4.5rem;
   max-width: 1000px;
   margin: 0 auto;
 }
@@ -17,12 +29,12 @@ a{
 }
 
 .logo_img{
-  width: 3.5rem;
+  width: 10rem;
 }
 .App-header {
-  max-width: 1100px;
+  /* max-width: 1100px; */
   font-size: 1rem;
-  padding: 1rem 4rem 0.5rem 4rem;
+  padding: 2rem 4rem 0.5rem 4rem;
   text-align: right;
   display: flex;
   align-items: center;
@@ -30,17 +42,47 @@ a{
   margin: 0 auto;
 }
 
-.App-header-gray {
-  max-width: 1100px;
-  font-size: 1rem;
-  padding: 1rem 4rem 0.5rem 4rem;
-  text-align: right;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+
+.main-card {
+	width: 45rem;
+	box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);	
+	border-radius: 16px;
+	background-color: rgba(255, 255, 255, .1);
+	backdrop-filter: blur(5px);
+  padding: 2rem 3rem;
   margin: 0 auto;
-  background:whitesmoke;
+  border: 1px solid #485267;
 }
+
+.headerRight{
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);	
+	border-radius: 16px;
+	background-color: rgba(255, 255, 255, .1);
+	backdrop-filter: blur(5px);
+  padding: 10px 15px;
+}
+
+
+.data-card{
+  width: 45rem;
+	box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);	
+  padding: 2rem 3rem;
+  margin: 2.5rem auto;
+  border: 1px solid #485267;
+  background: linear-gradient(0deg, rgba(106, 136, 153, 0.25), rgba(106, 136, 153, 0.25));
+  mix-blend-mode: normal;
+  backdrop-filter: blur(40px);
+  border-radius: 16px;
+}
+
+.description{
+  line-height: 26px;
+  letter-spacing: 0.2px;
+  font-weight: 300;
+  font-size: 18px;
+  opacity: 0.7;
+}
+
 
 .headLink{
   margin: 0 1rem 0 0.5rem;
@@ -59,15 +101,12 @@ hr{
   color: #61dafb;
 }
 
-.description{
-  line-height: 1.6;
-  letter-spacing: 0.2px;
-  word-spacing: 2px;
-}
 
 .mainTitle{
-  padding: 2rem 0;
-  font-size: 1.25rem;
+  padding: 0 0 2rem 0;
+  font-size: 26px;
+  font-weight: 700;
+  color: #fff;
 }
 
 .my-15{
@@ -79,4 +118,23 @@ hr{
 }
 .css-8ewcdo-MuiInputBase-root-MuiOutlinedInput-root {
   font-size: 14px !important;
+}
+
+.css-8ewcdo-MuiInputBase-root-MuiOutlinedInput-root{
+  color: #FFDFBD !important;
+
+}
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  color: #FFDFBD !important;
+}
+
+.css-1ygcj2i-MuiTableCell-root{
+  color: #FFF !important;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+}
+
+.css-1ex1afd-MuiTableCell-root{
+  color: #FFDFBD !important;
 }

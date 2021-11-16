@@ -3,18 +3,18 @@ import Header from './components/Layouts/Header'
 import RegisterIdentity from './components/RegisterIdentity'
 import ExternalNullifier from './components/ExternalNullifier'
 import SignalHistory from './components/SignalHistory'
+import backgroundImg from './components/assets/Images/background.png'
 import './App.css'
 
 const App = () => {
   return (
-    <div>
+    <div style={{ backgroundImage:`${backgroundImg}`}}>
       <Header />
-      <hr />
       <main>
         <RegisterIdentity />
-        <hr />
+       
         <ExternalNullifier />
-        <hr />
+
         <SignalHistory />
       </main>
       
