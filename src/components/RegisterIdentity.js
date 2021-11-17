@@ -17,7 +17,7 @@ const RegisterIdentity = () => {
 
     return (
         <>
-        <h1 className="mainHeading"> Title <span style={{color: '#FFDFBD'}}> goes here.</span> </h1>
+        <h1 className="mainHeading"> Panther  <span style={{color: '#FFDFBD'}}>LaunchDAO</span> </h1>
         <div className="main">
             
             <div className="main-card">

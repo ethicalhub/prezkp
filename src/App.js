@@ -8,16 +8,25 @@ import './App.css'
 
 const App = () => {
   return (
-    <div style={{ backgroundImage:`${backgroundImg}`}}>
+    <div>
+      <picture class="image-cover cover">
+        <source type="image/png" data-srcset="/static/media/background.cb81e314.png" />
+        <img data-src={backgroundImg} alt="" class="loaded" src={backgroundImg} data-was-processed="true" />
+      </picture>  
+
+
+
+<div className="overlay">
       <Header />
-      <main>
+      <main >
+    
         <RegisterIdentity />
        
         <ExternalNullifier />
 
         <SignalHistory />
       </main>
-      
+      </div>
     </div>
   )
 }
