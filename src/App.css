@@ -146,7 +146,6 @@ hr{
   top: 0 !important;
   bottom: 0 !important;
   background-attachment: fixed;
-  /* height: fit-content; */
 }
 
 .image-cover img{
@@ -156,7 +155,6 @@ hr{
   overflow-x: hidden;
   object-fit: fill ;
   position: fixed;
-  
 }
 
 .overlay{

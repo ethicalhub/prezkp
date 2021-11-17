@@ -14,8 +14,6 @@ const App = () => {
         <img data-src={backgroundImg} alt="" class="loaded" src={backgroundImg} data-was-processed="true" />
       </picture>  
 
-
-
 <div className="overlay">
       <Header />
       <main >
